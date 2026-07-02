@@ -148,9 +148,9 @@ Possible troubleshooting areas to document next:
 - Group Policy settings not applying
 - Shared folder or permission access issues
 
-## Screenshots
+## Available Screenshots
 
-Screenshots should be reviewed and redacted before publishing updates so no sensitive details, private account information, tokens, or unnecessary system identifiers are exposed.
+These screenshots were reviewed and redacted before publishing.
 
 - [Server IP configuration](screenshots/01-server-ipconfig.png)
 - [VirtualBox network settings](screenshots/02-virtualbox-network-settings.png)
