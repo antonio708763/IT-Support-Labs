@@ -148,19 +148,19 @@ Possible troubleshooting areas to document next:
 - Group Policy settings not applying
 - Shared folder or permission access issues
 
-## Screenshots
+## Available Screenshots
 
-Screenshots are planned but have not been added yet. Before any screenshots are committed, they must be reviewed and redacted so no sensitive details, private account information, tokens, or unnecessary system identifiers are exposed.
+These screenshots were reviewed and redacted before publishing.
 
-Planned screenshot placeholders:
-
-- [Server ipconfig output](screenshots/01-server-ipconfig.png)
+- [Server IP configuration](screenshots/01-server-ipconfig.png)
 - [VirtualBox network settings](screenshots/02-virtualbox-network-settings.png)
 - [Server Manager roles](screenshots/03-server-manager-roles.png)
 - [Active Directory users and groups](screenshots/04-active-directory-users-groups.png)
 - [DNS Manager](screenshots/05-dns-manager.png)
 - [Group Policy password settings](screenshots/06-group-policy-password-settings.png)
 - [IT Support file share](screenshots/07-file-share-it-support.png)
+- [IT Support security group](screenshots/08-it-support-security-group.png)
+- [VirtualBox storage settings](screenshots/09-virtualbox-storage-vdisks.png)
 
 ## Planned Documentation
 
