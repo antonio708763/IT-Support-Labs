@@ -148,19 +148,19 @@ Possible troubleshooting areas to document next:
 - Group Policy settings not applying
 - Shared folder or permission access issues
 
-## Screenshot Plan
+## Screenshots
 
-Screenshots will be added later to show the lab setup and key configuration areas. Screenshots must be reviewed and redacted before publishing so no sensitive details, private account information, tokens, or unnecessary system identifiers are exposed.
+Screenshots are planned but have not been added yet. Before any screenshots are committed, they must be reviewed and redacted so no sensitive details, private account information, tokens, or unnecessary system identifiers are exposed.
 
-Planned screenshots:
+Planned screenshot placeholders:
 
-- VirtualBox VM list and basic VM settings
-- Domain controller system information
-- Active Directory Users and Computers showing documented lab users and groups
-- Group Policy password and account lockout settings
-- SMB share configuration for `\\TX-DC-01\IT Support`
-- Windows 11 client domain membership
-- Network adapter configuration showing host-only and NAT separation
+- [Server ipconfig output](screenshots/01-server-ipconfig.png)
+- [VirtualBox network settings](screenshots/02-virtualbox-network-settings.png)
+- [Server Manager roles](screenshots/03-server-manager-roles.png)
+- [Active Directory users and groups](screenshots/04-active-directory-users-groups.png)
+- [DNS Manager](screenshots/05-dns-manager.png)
+- [Group Policy password settings](screenshots/06-group-policy-password-settings.png)
+- [IT Support file share](screenshots/07-file-share-it-support.png)
 
 ## Planned Documentation
 
