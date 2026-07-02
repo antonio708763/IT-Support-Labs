@@ -2,6 +2,12 @@
 
 This project documents my personal Active Directory lab built with Windows Server 2022 and Windows 11 virtual machines in VirtualBox. The goal is to practice common IT support and junior system administration tasks in a safe lab environment.
 
+## Status
+
+This documentation is still in progress. The main lab goals and practice areas are listed, but some setup details, screenshots, network notes, and step-by-step procedures still need to be documented.
+
+I will continue updating this page as I build, test, troubleshoot, and organize the lab. Any unknown details are marked as "To be documented" instead of being guessed.
+
 ## Lab Purpose
 
 The purpose of this lab is to build hands-on familiarity with Active Directory and Windows domain support concepts. This includes setting up a Windows Server environment, joining a Windows 11 client to a domain, managing users and groups, practicing basic Group Policy, and documenting troubleshooting steps.
@@ -20,13 +26,13 @@ This is personal lab work for learning and portfolio purposes. It is not product
 
 ## Lab Environment
 
-- **Host machine:** `<HOST_MACHINE_DETAILS>`
+- **Host machine:** To be documented
 - **Virtualization platform:** VirtualBox
 - **Server VM:** Windows Server 2022
 - **Client VM:** Windows 11
-- **Domain name:** `<LAB_DOMAIN_NAME>`
-- **Network configuration:** `<LAB_NETWORK_DETAILS>`
-- **Server roles configured:** `<SERVER_ROLES_CONFIGURED>`
+- **Domain name:** To be documented
+- **Network configuration:** To be documented
+- **Server roles configured:** To be documented
 
 ## What I Practiced
 
@@ -58,16 +64,27 @@ Use this section to document issues found during the lab and how they were resol
 
 | Issue | What I Checked | Resolution | Status |
 | --- | --- | --- | --- |
-| `<ISSUE_OR_ERROR_MESSAGE>` | `<TROUBLESHOOTING_STEPS>` | `<RESOLUTION>` | `<OPEN_OR_RESOLVED>` |
+| Windows 11 client could not join the domain | Checked that the client could reach the network, then reviewed the client DNS settings | Updated the Windows 11 client DNS setting so it pointed to the domain controller instead of an external DNS server | Resolved in lab |
 
-Possible troubleshooting areas to document:
+Possible troubleshooting areas to document next:
 
-- Domain join failures
+- Additional domain join failures
 - DNS lookup issues
 - DHCP or static IP configuration mistakes
 - User login problems
 - Group Policy settings not applying
 - Shared folder or permission access issues
+
+## Planned Documentation
+
+- Lab network diagram
+- Server and client VM specifications
+- Domain controller setup notes
+- Domain join steps for the Windows 11 client
+- User, group, and organizational unit examples
+- Group Policy settings tested in the lab
+- Shared resource and permissions examples
+- Screenshots with sensitive details removed
 
 ## Future Improvements
 
